@@ -141,7 +141,7 @@ def edit_drink(payload, drink_id):
 
         return jsonify({
             'success': True,
-            'drinks': drink.long(),
+            'drinks': [drink.long()],
         })
     except BaseException:
         abort(422)
