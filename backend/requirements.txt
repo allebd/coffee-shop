@@ -3,7 +3,7 @@ autopep8==1.4.4
 Click==7.0
 ecdsa==0.13.2
 Flask==1.0.2
-Flask-Cors==3.0.8
+Flask-Cors==3.0.9
 Flask-SQLAlchemy==2.4.0
 future==0.17.1
 isort==4.3.18
